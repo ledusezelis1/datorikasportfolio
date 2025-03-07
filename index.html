@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>Žaka datorikas portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,7 +21,8 @@ body {font-family: "Lato", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Datorikas portfolio</a>
     <a href="#Gimp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gimp</a>
     <a href="#Inkscape" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inkscape</a>
-    <a href="#3D" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3D</a>
+    <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">video</a>
+     <a href="#3d" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3d</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="Microsoft">Microsoft <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -38,7 +39,8 @@ body {font-family: "Lato", sans-serif}
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#Gimp" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gimp</a>
   <a href="#Inkscape" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Inkscape</a>
-  <a href="#3D" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3D</a>
+  <a href="#video" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">video</a>
+  <a href="#3d" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3d</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
@@ -55,70 +57,24 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-black" id="Inkscape">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">Inkscape</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
-
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-      </ul>
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>New York</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-      </div>
+     <p> 2. tēma bija vektorgrafika. Uzdevumos taisīju logo ar programmu inkspace.</p>
+     <img src="images/kuk.png" id="kuk">
+  
     </div>
   </div>
 
-
-  <!-- The 3D Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="3D">
-    <h2 class="w3-wide w3-center">3D</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
-      </div>
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
+  <!-- The video Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="3d">
+    <h2 class="w3-wide w3-center">3d</h2>
+     <p class="w3-justify"> <p> 3. tēma bija 3d. Uzdevumos izveidojām 3d klucīti.No sākuma izveidojām skici. Uztaisījām 3d modeli, kuru pēc tam izprintējām.</p>
+        <img src="images/skice prieks kuba.png" id="skice prieks kuba">
+    </div>
+  </div>
+     <!-- The video Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="video">
+    <h2 class="w3-wide">video</h2>
+    <p class="w3-justify"> <p> 4. tēma bija video montāža. Uzdevumos izveidojām video par 3d klucīša pagatavošanu. Izmantoju programmu clipchamp</p> 
+     <img src="images/Screenshot (1).png" id="Screenshot (1)" width="500" height="333">
       </div>
     </div>
   </div>
