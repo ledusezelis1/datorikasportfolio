@@ -8,9 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <title>erganomiska darba vide</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="mansStils.css">
         <style>body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,12 +28,12 @@ header {
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Datorikas portfolio</a>
-    <a href="#Gimp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gimp</a>
-    <a href="#Inkscape" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inkscape</a>
-    <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">video</a>
-     <a href="#3d" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3d</a>
-      <a href="#word" class="w3-bar-item w3-button w3-padding-large w3-hide-small">word</a>
-       <a href="#excel" class="w3-bar-item w3-button w3-padding-large w3-hide-small">excel</a>
+    <a href=index.html#Gimp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gimp</a>
+    <a href="index.html#Inkscape" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inkscape</a>
+    <a href="index.html#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">video</a>
+     <a href="index.html#3d" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3d</a>
+      <a href="index.html#word" class="w3-bar-item w3-button w3-padding-large w3-hide-small">word</a>
+       <a href="index.html#excel" class="w3-bar-item w3-button w3-padding-large w3-hide-small">excel</a>
        <a href="skola.html"class="w3-bar-item w3-button w3-padding-large w3-hide-small">Skola</a>
        <a href="baiti.html"class="w3-bar-item w3-button w3-padding-large w3-hide-small">Baiti</a>
        <a href="otrais.html"class="w3-bar-item w3-button w3-padding-large w3-hide-small">erganomiska darba vide (otrais.html)</a>
@@ -48,16 +46,19 @@ header {
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#Gimp" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gimp</a>
-  <a href="#Inkscape" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Inkscape</a>
-  <a href="#video" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">video</a>
-  <a href="#3d" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3d</a>
-  <a href="#word" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">word</a>
- <a href="#excel" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">excel</a>
+  <a href="index.html#Gimp" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gimp</a>
+  <a href="index.html#Inkscape" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Inkscape</a>
+  <a href="index.html#video" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">video</a>
+  <a href="index.html#3d" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3d</a>
+  <a href="index.html#word" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">word</a>
+ <a href="index.html#excel" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">excel</a>
+  <a href="skola.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">skola</a>
+  <a href="baiti.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">baiti</a>
+ <a href="otrais.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">erganomiska darba vide (otrais.html)</a>
 </div>
         <div>
             
-                   
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="otrais.html">           
 <h1>Ergonomiska darba vide: veselībai un produktivitātei</h1>
         <p>Ergonomiska darba vide ir būtiska gan darbinieku veselībai, gan darba efektivitātei. Tā palīdz samazināt fizisko un garīgo nogurumu, kā arī novērš dažādas veselības problēmas, piemēram, muguras sāpes un acu saspringumu.</p>
                     
@@ -98,8 +99,27 @@ Kad darba vieta iekārtota, vari parūpēties par citiem papildu ergonomiskiem a
         <img src="images/plakats.png" id="plakats">
       
        
-     
+            </div>
         </div>
+<script>
 
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
     </body>
 </html>
